@@ -35,5 +35,11 @@
 <li>
 11. for unit test run php artisan test
 </li>
-note : it is three languages
+It is three languages
+<br>
+For user permission click on profile icon in left menu of system and there is مدیریت سیستم (system  administrator) to list of role and permissions 
+<br>
+In first must create a role
+<br>
+admin@admin.com is as developer hardcoded in User.php on $developer variable
 </ul>
