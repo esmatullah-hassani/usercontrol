@@ -29,4 +29,7 @@
 <li>
 10. open user list
 </li>
+<li>
+11. for unit test run php artisan test
+</li>
 </ul>
