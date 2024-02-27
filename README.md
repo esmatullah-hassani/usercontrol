@@ -27,9 +27,13 @@
 9.login with email: admin@admin.com and password admin@123
 </li>
 <li>
-10. open user list
+10. open user list 
+</li>
+<li>
+11. register a user and print card from user list open options(گزینه ها) and click to Id Card (آیدی کارت) 
 </li>
 <li>
 11. for unit test run php artisan test
 </li>
+note : it is three languages
 </ul>
