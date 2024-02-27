@@ -1,0 +1,54 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Force SSL
+    # RewriteCond %{HTTPS} != on
+    # RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_HOST} mis.knu.edu.af
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # [R=301,L,NE]
+
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_HOST} jaghori.khu.edu.af
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # [R=301,L,NE]
+
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_HOST} mis.toloeaftab.edu.af
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # [R=301,L,NE]
+    
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_HOST} mis.ahlobait.edu.af
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    #[R=301,L,NE]
+    
+    #RewriteCond %{HTTPS} off
+    #RewriteCond %{HTTP_HOST} payda.eshraq.edu.af
+    #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # [R=301,L,NE]
+
+    # Force http
+    # RewriteCond %{HTTPS} on
+    # RewriteCond %{HTTP_HOST} mis.knu.edu.af
+    # RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

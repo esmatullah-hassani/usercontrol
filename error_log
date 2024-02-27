@@ -1,0 +1,162 @@
+[03-Sep-2023 05:25:01 UTC] PHP Warning:  Module "iconv" is already loaded in Unknown on line 0
+[03-Sep-2023 05:25:01 UTC] PHP Warning:  Module "iconv" is already loaded in Unknown on line 0
+[03-Sep-2023 05:25:01 UTC] PHP Parse error:  syntax error, unexpected variable "$flags", expecting ")" in /home/uprubik/public_html/index.php on line 2
+[03-Sep-2023 05:25:09 UTC] PHP Warning:  Module "iconv" is already loaded in Unknown on line 0
+[03-Sep-2023 05:25:09 UTC] PHP Warning:  Module "iconv" is already loaded in Unknown on line 0
+[03-Sep-2023 05:25:09 UTC] PHP Parse error:  syntax error, unexpected variable "$flags", expecting ")" in /home/uprubik/public_html/index.php on line 2
+[12-Sep-2023 11:13:13 Asia/Kabul] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Throwable $e) in /home/uprubik/public_html/app/Exceptions/Handler.php on line 35
+[12-Sep-2023 11:13:13 Asia/Kabul] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#13 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#14 {main}
+  thrown in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[12-Sep-2023 11:13:21 Asia/Kabul] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Throwable $e) in /home/uprubik/public_html/app/Exceptions/Handler.php on line 35
+[12-Sep-2023 11:13:21 Asia/Kabul] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#13 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#14 {main}
+  thrown in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[12-Sep-2023 11:16:32 Asia/Kabul] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Throwable $e) in /home/uprubik/public_html/app/Exceptions/Handler.php on line 35
+[12-Sep-2023 11:16:32 Asia/Kabul] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#13 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#14 {main}
+  thrown in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[12-Sep-2023 11:16:41 Asia/Kabul] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Throwable $e) in /home/uprubik/public_html/app/Exceptions/Handler.php on line 35
+[12-Sep-2023 11:16:41 Asia/Kabul] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#13 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#1 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#2 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(297): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(287): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(188): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#11 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(230): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#12 /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#14 {main}
+  thrown in /home/uprubik/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[12-Sep-2023 16:47:48 Asia/Kabul] PHP Fatal error:  Class App\User contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\User::getActivitylogOptions) in /home/uprubik/public_html/app/User.php on line 27
+[12-Sep-2023 16:51:37 Asia/Kabul] PHP Fatal error:  Class App\User contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\User::getActivitylogOptions) in /home/uprubik/public_html/app/User.php on line 27
+[12-Sep-2023 17:00:09 Asia/Kabul] PHP Fatal error:  Trait "Spatie\Activitylog\Traits\DetectsChanges" not found in /home/uprubik/public_html/app/Traits/LogsActivity.php on line 14
+[13-Sep-2023 09:35:28 Asia/Kabul] PHP Fatal error:  Trait "Spatie\Activitylog\Traits\DetectsChanges" not found in /home/uprubik/public_html/app/Traits/LogsActivity.php on line 14
